@@ -1,0 +1,10 @@
+#aboutDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 가운데 정렬을 위해 추가 */
+}
+
+#aboutDiv .intro {
+    white-space: pre-line;
+    margin-top: 10px; /* 상단에 여백 추가 */
+}

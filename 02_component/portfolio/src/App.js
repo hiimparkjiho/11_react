@@ -1,26 +1,12 @@
 import React from 'react';
-import "./header.css"
-
-function Header() {
-  return (
-    <div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Project</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </div>
-  );
-}
+import Header from "./header";
+import AboutMe from "./aboutMe";
 
 function App() {
   return (
     <div>
       <Header />
+      <AboutMe />
     </div>
   );
 }
