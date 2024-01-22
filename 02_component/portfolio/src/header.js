@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
 import "./header.css"
 
 
-function Header() {
+function Header({ darkMode, onToggleDarkMode }) {
     return (
       <div id='headerDiv'>
         <nav>
@@ -13,7 +12,11 @@ function Header() {
             <li>Contact</li>
           </ul>
         </nav>
+        <button onClick={onToggleDarkMode}>
+        {darkMode ? 'Light Mode' : 'Dark Mode'}
+      </button>
       </div>
+      
     );
   }
 
