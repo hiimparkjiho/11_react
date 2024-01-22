@@ -1,10 +1,39 @@
 #aboutDiv {
     display: flex;
     flex-direction: column;
-    align-items: center; /* 수직 가운데 정렬을 위해 추가 */
+    align-items: center; 
+}
+
+#aboutDiv .home{
+   font-size: 39px;
+   margin-top: 3%;
+   font-weight: bold;
+}
+
+.about{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#aboutDiv h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 #aboutDiv .intro {
     white-space: pre-line;
-    margin-top: 10px; /* 상단에 여백 추가 */
+    margin-top: 10px; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#aboutDiv .intro::after {
+    animation: typing 5s steps(31) infinite;
+}
+
+hr{
+    width: 70%;
+    border: solid;
+    color: black;
 }

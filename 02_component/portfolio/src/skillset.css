@@ -1,0 +1,61 @@
+.skillsFont{
+    display: flex;
+    justify-content: center;
+    font-size: 39px;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.skillCategoryDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.backEndDiv{
+    width: 700px;
+    height: 300px;
+}
+
+.frontEndDiv{
+    width: 700px;
+    height: 300px;
+}
+
+.DBDiv{
+    width: 700px;
+    height: 300px;
+}
+
+.ToolsDiv{
+    width: 700px;
+    height: 300px;
+}
+
+.backEndFont{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skillHr{
+    width: 80%;
+    border: solid;
+    color: gray;
+}
+
+.skillList{
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.skillName{
+    margin-top: 4%;
+}
+
+.skillAppHr{
+    width: 70%;
+    border: solid;
+    color: black;
+}

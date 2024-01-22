@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./header.css"
 
-function Header() {
 
+function Header() {
     return (
       <div id='headerDiv'>
         <nav>
           <ul>
             <li>Home</li>
-            <li>About</li>
             <li>Skills</li>
             <li>Project</li>
             <li>Contact</li>
