@@ -1,0 +1,20 @@
+.projectFont{
+    display: flex;
+    justify-content: center;
+    font-size: 39px;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.projectDiv{
+    display: flex;
+    width: 70%;
+    height: 350px;
+    border: 2px solid black;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.projectImg{
+    width: 50%;
+}

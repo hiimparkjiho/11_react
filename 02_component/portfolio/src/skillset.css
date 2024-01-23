@@ -31,12 +31,12 @@
     height: 300px;
 }
 
-.backEndFont{
+.skillFont{
     display: flex;
     justify-content: center;
     margin-top: 5%;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 31px;
 }
 
 .skillHr{

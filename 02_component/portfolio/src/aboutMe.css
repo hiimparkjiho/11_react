@@ -1,3 +1,4 @@
+
 #aboutDiv {
     display: flex;
     flex-direction: column;
@@ -32,8 +33,13 @@
     animation: typing 5s steps(31) infinite;
 }
 
-hr{
+.endHr{
     width: 70%;
     border: solid;
     color: black;
+}
+
+.homeHr{
+    width: 10%;
+    border: solid 1px gray;
 }

@@ -3,6 +3,7 @@ import Header from "./header";
 import AboutMe from "./aboutMe";
 import Skillset from './skillset';
 import './App.css';
+import Projects from './projects';
 
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
   return (
     <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
      <Header darkMode={darkMode} onToggleDarkMode={toggleDarkMode} />
-      <AboutMe />
+      <AboutMe/>
       <Skillset/>
+      <Projects/>
     </div>
   );
 }

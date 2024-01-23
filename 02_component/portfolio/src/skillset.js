@@ -8,7 +8,7 @@ function Skillset(){
                 <div className='skillsFont'>Skills</div>
                 <div className='skillCategoryDiv'>
                     <div className='backEndDiv'>
-                        <div className='backEndFont'>Back-end</div>
+                        <div className='skillFont'>Back-end</div>
                         <hr className='skillHr'/>
                             <div className='skillList'>
                                 <li className='skillName'>Java</li>
@@ -18,7 +18,7 @@ function Skillset(){
                             </div>
                     </div>
                     <div className='frontEndDiv'>
-                        <div className='backEndFont'>Front-end</div>
+                        <div className='skillFont'>Front-end</div>
                         <hr className='skillHr'/>
                             <div className='skillList'>
                                 <li className='skillName'>HTML</li>
@@ -30,14 +30,14 @@ function Skillset(){
                 </div>
                 <div className='skillCategoryDiv'>
                     <div className='DBDiv'>
-                    <div className='backEndFont'>DB</div>
+                    <div className='skillFont'>DB</div>
                         <hr className='skillHr'/>
                             <div className='skillList'>
                                 <li className='skillName'>MySQL</li>
                             </div>
                     </div>
                     <div className='ToolsDiv'>
-                        <div className='backEndFont'>Tools</div>
+                        <div className='skillFont'>Tools</div>
                         <hr className='skillHr'/>
                             <div className='skillList'>
                                 <li className='skillName'>Git</li>
