@@ -7,7 +7,7 @@
 
 #aboutDiv .home{
    font-size: 39px;
-   margin-top: 5%;
+   margin-top: 7%;
    font-weight: bold;
 }
 
@@ -40,6 +40,12 @@
 }
 
 .homeHr{
+    margin-bottom: 3%;
     width: 10%;
-    border: solid 1px gray;
+    border: solid 1px black;
+}
+
+.imoteImg{
+    width: 300px;
+    height: 300px;
 }
