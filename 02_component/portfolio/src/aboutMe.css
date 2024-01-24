@@ -24,7 +24,7 @@
 
 #aboutDiv .intro {
     white-space: pre-line;
-    margin-top: 10px; 
+    margin-top: 5%; 
     font-size: 30px;
     font-weight: bold;
 }
@@ -48,4 +48,6 @@
 .imoteImg{
     width: 300px;
     height: 300px;
+    border: 2px solid black;
+    border-radius: 5%;
 }

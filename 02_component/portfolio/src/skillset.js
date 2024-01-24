@@ -13,8 +13,6 @@ function Skillset(){
                             <div className='skillList'>
                                 <li className='skillName'>Java</li>
                                 <li className='skillName'>Spring</li>
-                                <li className='skillName'>MyBatis</li>
-                                <li className='skillName'>JPA</li>
                             </div>
                     </div>
                     <div className='frontEndDiv'>
