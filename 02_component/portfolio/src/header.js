@@ -1,3 +1,4 @@
+import DarkmodeBtn from "./DarkModeBtn";
 import "./header.css"
 
 
@@ -12,9 +13,7 @@ function Header({ darkMode, onToggleDarkMode }) {
             <li>Contact</li>
           </ul>
         </nav>
-        <button onClick={onToggleDarkMode}>
-        {darkMode ? 'Light Mode' : 'Dark Mode'}
-      </button>
+        <DarkmodeBtn onToggleDarkMode={onToggleDarkMode} darkMode={darkMode} />
       </div>
       
     );
