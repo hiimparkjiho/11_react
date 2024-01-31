@@ -14,7 +14,7 @@ const FiveCat = () => {
         <div>
             <button onClick={onClickHandler}>고양이 5마리 출력</button>
             <div>{catImage.map((url, index) => (
-        <img key={index} src={url} style={{ width: '300px', marginTop: '10px' }} />
+        <img key={index} src={url} style={{ width: '300px', marginTop: '10px' }}/>
       ))}</div>
         </div>
     )
