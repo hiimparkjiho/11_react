@@ -4,6 +4,7 @@ import AboutMe from "./aboutMe";
 import './App.css';
 import Projects from './projects';
 import SkillCategory from './SkillCategory';
+import Skillset from './Skills';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
      <Header darkMode={darkMode} onToggleDarkMode={toggleDarkMode} />
       <AboutMe/>
-      <SkillCategory/>
+      <Skillset/>
       <Projects/>
     </div>
   );

@@ -1,54 +1,20 @@
 import React from 'react';
 import "./skillset.css";
 
-function Skillset(){
 
-    return(
-        <div className='skillSetDiv'>
-                <div className='skillsFont'>Skills</div>
-                <div className='skillCategoryDiv'>
-                    <div className='backEndDiv'>
-                        <div className='skillFont'>Back-end</div>
-                        <hr className='skillHr'/>
-                            <div className='skillList'>
-                                <li className='skillName'>Java</li>
-                                <li className='skillName'>Spring</li>
-                            </div>
-                    </div>
-                    <div className='frontEndDiv'>
-                        <div className='skillFont'>Front-end</div>
-                        <hr className='skillHr'/>
-                            <div className='skillList'>
-                                <li className='skillName'>HTML</li>
-                                <li className='skillName'>CSS</li>
-                                <li className='skillName'>Javascript</li>
-                                <li className='skillName'>React</li>
-                            </div>
-                    </div>
-                </div>
-                <div className='skillCategoryDiv'>
-                    <div className='DBDiv'>
-                    <div className='skillFont'>DB</div>
-                        <hr className='skillHr'/>
-                            <div className='skillList'>
-                                <li className='skillName'>MySQL</li>
-                            </div>
-                    </div>
-                    <div className='ToolsDiv'>
-                        <div className='skillFont'>Tools</div>
-                        <hr className='skillHr'/>
-                            <div className='skillList'>
-                                <li className='skillName'>Git</li>
-                                <li className='skillName'>SourceTree</li>
-                                <li className='skillName'>Notion</li>
-                            </div>
-                    </div>
-                </div>
-                <hr className='skillAppHr'/>
+
+function SkillCategory({ title, skills }) {
+    return (
+        <div className='skillCategoryDiv'>
+            <div className='categoryTitle'>{title}</div>
+            <hr className='skillHr'/>
+            <div className='skillList'>
+                {skills.map((skill, index) => (
+                    <li className='skillName' key={index}>{skill}</li>
+                ))}
+            </div>
         </div>
-        
-    )
-
+    );
 }
 
-export default Skillset;
+export default SkillCategory;
