@@ -6,7 +6,7 @@ function Skillset() {
     const backendSkills = ['Java', 'Spring'];
     const frontendSkills = ['HTML', 'CSS', 'Javascript', 'React'];
     const databaseSkills = ['MySQL'];
-    const toolsSkills = ['Git', 'SourceTree', 'Notion'];
+    const toolsSkills = ['Git', 'SourceTree'];
 
     return (
         <div className='skillSetDiv'>

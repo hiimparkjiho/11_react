@@ -3,7 +3,6 @@ import Header from "./header";
 import AboutMe from "./aboutMe";
 import './App.css';
 import Projects from './projects';
-import SkillCategory from './SkillCategory';
 import Skillset from './Skills';
 
 
